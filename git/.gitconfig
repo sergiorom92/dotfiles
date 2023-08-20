@@ -21,7 +21,7 @@
   navigate = true    # use n and N to move between diff sections
   light = false      # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
   side-by-side = true
-  syntax-theme = OneHalfDark
+  syntax-theme = Catppuccin-mocha   # Remember to Install Captuccin Theme for Bat
   features = decorations
   file-modified-label = modified:
   paging = always
