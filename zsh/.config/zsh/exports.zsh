@@ -12,6 +12,7 @@ export PATH=$ANDROID_SDK_ROOT/emulator:$PATH
 export PATH=$HOME/Library/Python/3.9/bin:$PATH
 export PATH=$ANDROID_SDK_ROOT/platform-tools:$PATH
 export PATH=$HOME/go/bin:$PATH
+export PATH=$HOME/Library/Python/3.12/bin:$PATH
 
 # Set up GPG
 export GPG_TTY=$(tty)
