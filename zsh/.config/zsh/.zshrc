@@ -5,6 +5,8 @@ BASE_PATH=$([ "$(uname)" = "Darwin" ] && echo "/Users" || echo "/home")
 # Path to your oh-my-zsh installation.
 export ZSH="$BASE_PATH/$USER/.oh-my-zsh"
 
+export BAT_THEME="Catppuccin Mocha"
+
 # Uncomment the following line to automatically update without prompting.
 DISABLE_UPDATE_PROMPT="true"
 
@@ -41,3 +43,5 @@ source $ZDOTDIR/plugins.zsh
 
 # Keybindings
 source $ZDOTDIR/keybindings.zsh
+
+# source "$HOME/.zshrc"
